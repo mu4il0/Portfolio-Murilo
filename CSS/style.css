@@ -207,6 +207,7 @@ nav ul a:hover {
     border-radius: 5px;
     box-sizing: border-box;
     color: black;
+    resize: none;
 }
 
 #container_email {
