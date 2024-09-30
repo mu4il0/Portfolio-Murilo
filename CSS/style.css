@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Faz com que a página flue mais suave */
+    scroll-padding-top: 90px;
+}
+
+body {
+    background-color: #24243E;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    /* Irá desfocar o fundo */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-transform: uppercase;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    /* Tira o anderline dos links */
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+nav ul a:hover {
+    color: black;
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#banner {
+    background-image: url("../assets/capa.jpg");
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    /*Não fará com que a img se repita  */
+    background-size: cover;
+    /* Irá colocar a img em toda tela */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.sobre-mim h2 {
+    margin-bottom: 6px;
+    /* Espaçamneto externo */
+    text-align: left;
+}
+
+.content img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+.content p {
+    width: 550px;
+    line-height: 35px;
+    /* Altura da linha, irá mudar a distancia entre um texto e outro */
+    margin-bottom: 25px;
+
+}
+
+.content a {
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    padding: 3px 20px;
+    border: none;
+    font-weight: bold;
+    border: 2px solid white;
+    transition: 0.6s;
+    text-transform: uppercase;
+    margin: auto;
+    text-decoration: none;
+}
+
+.content a:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+#skills {
+    color: white;
+    display: flex;
+    gap: 1rem;
+    /* Espaçamento em cada elemento */
+    padding: 25px;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    /* Irá quebrar os elementos filhos quando não houver espaço suficiente para todos os elementos na tela */
+    justify-content: center;
+}
+
+#skills .title {
+    margin-top: 30px;
+}
+
+.skill {
+    background-color: #0F0C20;
+    padding: 25px;
+    border-radius: 15px;
+    width: 320px;
+    text-align: center;
+}
+
+.skill svg {
+    width: 60px;
+    fill: white;
+    /* Especificamente para SVG */
+}
+
+#html {
+    fill: #FF4500;
+}
+
+#css {
+    fill: #264de4;
+}
+
+#js {
+    fill: #FFFF00;
+}
+
+.skill h2 {
+    color: #cecece;
+    margin-bottom: 6px;
+    /* Espaçamneto externo */
+    text-align: center;
+}
+
+.align {
+    color: white;
+    display: flex;
+    gap: 1rem;
+    /* Espaçamento em cada elemento */
+    padding: 25px;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    /* Irá quebrar os elementos filhos quando não houver espaço suficiente para todos os elementos na tela */
+    justify-content: center;
+}
+
+/* Teste */
+#section_contact {
+    padding: 20px;
+    color: white;
+    background-color: #24243E;
+}
+
+.title_contacts {
+    /* Espaçamneto externo */
+    text-align: center;
+    height: 15px;
+    margin-bottom: 30px;
+}
+
+.form_control {
+    margin-bottom: 20px;
+}
+
+.form_control label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form_control input,
+.form_control textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+
+#container_email {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #0F0C20;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+section .enviar {
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    padding: 3px 20px;
+    border: none;
+    font-weight: bold;
+    border: 2px solid white;
+    transition: 0.6s;
+    text-transform: uppercase;
+    margin: auto;
+    text-decoration: none;
+}
+
+form .enviar button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+/* Fim do teste */
+
+footer {
+    background-color: #0F0C20;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+footer #footer_social_media i {
+    font-size: 40px;
+    width: 50px;
+}
+
+#linkedin {
+    color: #0A66C2;
+}
+
+#github {
+    color: white;
+}
+
+#whatsapp {
+    color: #00BE16;
+}
+
+#e-mail {
+    color: white;
+}
+
+#e-mail:active {
+    color: white;
+}
+
+#projects {
+    color: white;
+    gap: 1rem;
+    /* Espaçamento em cada elemento */
+    padding: 25px;
+    max-width: 1200px;
+    margin: auto;
+
+    /* Irá quebrar os elementos filhos quando não houver espaço suficiente para todos os elementos na tela */
+}
+
+.title_projects {
+    color: white;
+    /* Espaçamneto externo */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container_projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.project {
+    text-align: center;
+    width: 370px;
+}
+
+.project img {
+    width: 360px;
+    border-radius: 15px;
+    margin: 15px 0;
+    min-height: 215px;
+}
+
+.container_projects a {
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    padding: 3px 20px;
+    border: none;
+    font-weight: bold;
+    border: 2px solid white;
+    transition: 0.6s;
+    text-transform: uppercase;
+    margin: auto;
+    text-decoration: none;
+}
+
+.container_projects a:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}

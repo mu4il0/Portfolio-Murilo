@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Meu Portifólio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Murilo</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#banner">Home</a>
+                </li>
+                <li>
+                    <a href="#skills">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#projects">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="#section_contact">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <div class="content">
+            <div class="sobre-mim">
+                <h2>SOBRE MIM</h2>
+
+                <div>
+                    <p>
+                        Sou um programador Front-end de 22 anos, em constante evolução,
+                        com foco em HTML, CSS e JavaScript. Tenho conhecimento sólido na
+                        criação de interfaces estruturadas com HTML, estilização de
+                        layouts responsivos com CSS, e estou aprimorando minhas
+                        habilidades em adicionar interatividade e dinamismo às páginas
+                        através do JavaScript. Minha busca é por soluções eficientes e
+                        funcionais no desenvolvimento web.
+                    </p>
+
+                    <a href="./assets/CurriculoMurilo .pdf" target="_blank">Acesse meu currículo</a>
+                </div>
+            </div>
+            <img src="./assets/eu.jpg" alt="Murilo" />
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="title">HABILIDADES</h2>
+        <div class="align">
+            <div class="skill">
+                <svg id="html" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+                </svg>
+                <h2>HTML</h2>
+                <p>
+                    (HyperText Markup Language): Define a estrutura e o conteúdo da
+                    página web, organizando elementos como textos, imagens e links.
+                </p>
+            </div>
+
+            <div class="skill">
+                <svg id="css" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" />
+                </svg>
+                <h2>CSS</h2>
+                <p>
+                    (Cascading Style Sheets): Controla a aparência da página, definindo
+                    cores, fontes, espaçamentos e ajustando o layout para diferentes
+                    dispositivos.
+                </p>
+            </div>
+
+            <div class="skill">
+                <svg id="js" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+                </svg>
+                <h2>JavaScript</h2>
+                <p>
+                    Torna a página interativa, permitindo animações, respostas a eventos
+                    do usuário e atualizações dinâmicas de conteúdo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="title_projects">PROJETOS</h2>
+
+        <div class="container_projects">
+            <div class="project">
+                <h3>Previsão do Tempo</h3>
+                <img src="./assets/Previsao-Tempo.png" alt="Previsão do Tempo" />
+                <a href="https://mu4il0.github.io/Previsao_do_Tempo/" target="_blank">Acessar</a>
+            </div>
+
+            <div class="project">
+                <h3>Projeto Nike</h3>
+                <img src="./assets/nike.png" alt="Projeto Nike" />
+                <a href="https://mu4il0.github.io/Projeto-Nike/" target="_blank">Acessar</a>
+            </div>
+
+            <div class="project">
+                <h3>Projeto Slide</h3>
+                <img src="./assets/Projeto-Slide.png" alt="Projeto Slide" />
+                <a href="https://mu4il0.github.io/Projeto-Slider/" target="_blank">Acessar</a>
+            </div>
+
+            <div class="project">
+                <h3>Convertor de Moendas</h3>
+                <img src="./assets/convertor-moendas.png" alt="Convertor de Moendas" />
+                <a href="https://mu4il0.github.io/Projeto-Conversor_de_Moedas/" target="_blank">Acessar</a>
+            </div>
+
+            <div class="project">
+                <h3>Portifólio DevClub</h3>
+                <img src="./assets/portifolio-dev.png" alt="Portifolio DevClub" />
+                <a href="https://mu4il0.github.io/Portfolio-DeClub/" target="_blank">Acessar</a>
+            </div>
+
+            <div class="project">
+                <h3>Projeto Figma Responsivo</h3>
+                <img src="./assets/Projeto-responsivo.png" alt="Projeto Figma Responsivo" />
+                <a href="https://mu4il0.github.io/Desafio-Figma3/" target="_blank">Acessar</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_contact">
+        <h2 class="title_contacts">CONTATO</h2>
+
+        <form action="https://formsubmit.co/6e3e6e0226e5a141fed3ae67fdae5a24" method="POST" id="container_email">
+            <div class="form_control">
+                <label for="name">NOME :</label>
+                <input name="name" id="name" type="text" required>
+            </div>
+
+            <div class="form_control">
+                <label for="e-mail">E-MAIL :</label>
+                <input name="e-mail" id="envelope" type="email" required>
+            </div>
+
+            <div class="form_control">
+                <label for="message">ASSUNTO :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="enviar">ENVIAR</button>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="./success.html">
+
+        </form>
+    </section>
+
+    <footer>
+        <div id="footer_social_media">
+            <a href="https://www.linkedin.com/in/murilo-tavares-de-moraes-7b3bbb304/" class="footer-links"
+                id="linkedin" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/mu4il0" class="footer_social_media" id="github" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://api.whatsapp.com/send?phone=5563984042739&text=Ol%C3%A1!%20Prazer%20me%20chamo%20Murilo!%0AComo%20posso%20te%20ajudar?"
+                class="footer_social_media" id="whatsapp" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="mailto:tavaresmurilo2002@gmail.com" class="footer_social_media" id="e-mail" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
